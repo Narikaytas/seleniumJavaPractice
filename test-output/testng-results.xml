@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T09:54:01Z" name="Suite" finished-at="2023-11-13T09:54:26Z" duration-ms="25280">
+    <groups>
+      <group name="loginTestpageGroup">
+        <method signature="loginTestpage.browserLaunch()[pri:0, instance:ParaBankTestPages.loginTestpage@5ddf0d24]" name="browserLaunch" class="ParaBankTestPages.loginTestpage"/>
+        <method signature="loginTestpage.enterData()[pri:0, instance:ParaBankTestPages.loginTestpage@5ddf0d24]" name="enterData" class="ParaBankTestPages.loginTestpage"/>
+      </group> <!-- loginTestpageGroup -->
+      <group name="registrationTestPageGroup">
+        <method signature="registrationTestPage.browserLaunch()[pri:0, instance:ParaBankTestPages.registrationTestPage@35432107]" name="browserLaunch" class="ParaBankTestPages.registrationTestPage"/>
+        <method signature="registrationTestPage.registerData()[pri:0, instance:ParaBankTestPages.registrationTestPage@35432107]" name="registerData" class="ParaBankTestPages.registrationTestPage"/>
+      </group> <!-- registrationTestPageGroup -->
+    </groups>
+    <test started-at="2023-11-13T09:54:01Z" name="Test" finished-at="2023-11-13T09:54:26Z" duration-ms="25280">
+      <class name="ParaBankTestPages.registrationTestPage">
+        <test-method signature="browserLaunch()[pri:0, instance:ParaBankTestPages.registrationTestPage@35432107]" started-at="2023-11-13T15:24:01Z" name="browserLaunch" finished-at="2023-11-13T15:24:11Z" duration-ms="9837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="registerData()[pri:0, instance:ParaBankTestPages.registrationTestPage@35432107]" started-at="2023-11-13T15:24:18Z" name="registerData" finished-at="2023-11-13T15:24:23Z" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerData -->
+      </class> <!-- ParaBankTestPages.registrationTestPage -->
+      <class name="ParaBankTestPages.loginTestpage">
+        <test-method signature="browserLaunch()[pri:0, instance:ParaBankTestPages.loginTestpage@5ddf0d24]" started-at="2023-11-13T15:24:11Z" name="browserLaunch" finished-at="2023-11-13T15:24:18Z" duration-ms="7563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="enterData()[pri:0, instance:ParaBankTestPages.loginTestpage@5ddf0d24]" started-at="2023-11-13T15:24:23Z" name="enterData" finished-at="2023-11-13T15:24:26Z" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+      </class> <!-- ParaBankTestPages.loginTestpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
